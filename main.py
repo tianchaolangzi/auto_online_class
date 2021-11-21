@@ -95,8 +95,8 @@ def main():
     browser.maximize_window()
 
     # 5.用户登录
-    username_ = "天惠路程莹"  # stands for !@user
-    password_ = "13951874983wsCY"
+    username_ = "xxx"  # stands for !@user
+    password_ = "xxxxxxx"
 
     # 进入账户密码输入页面,找到用户密码框，填写内容
     user = browser.find_elements(By.XPATH, '//*[@id="loginName"]')[0]
